@@ -1,0 +1,39 @@
+name: "💬 Event feedback"
+description: Tell us how an event went
+title: "[Feedback] "
+labels: ["feedback"]
+body:
+  - type: dropdown
+    id: event
+    attributes:
+      label: Which event?
+      options:
+        - Mon 12 Oct - Women in Tech kickoff
+        - Mon 19 Oct - Intro to cloud computing
+        - Mon 26 Oct - Cybersecurity basics
+        - Mon 2 Nov - Getting started with AI and ML
+        - Mon 9 Nov - Data science session
+        - Mon 16 Nov - Build a small web or mobile project
+        - Mon 23 Nov - Hackathon
+    validations:
+      required: true
+  - type: dropdown
+    id: pace
+    attributes:
+      label: Pace
+      options:
+        - Too slow
+        - About right
+        - Too fast
+  - type: textarea
+    id: good
+    attributes:
+      label: What worked well?
+  - type: textarea
+    id: improve
+    attributes:
+      label: What could be better?
+  - type: textarea
+    id: next
+    attributes:
+      label: What would you like to see next?

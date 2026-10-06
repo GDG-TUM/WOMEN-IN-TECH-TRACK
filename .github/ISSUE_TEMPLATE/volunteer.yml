@@ -1,0 +1,41 @@
+name: "🙋🏾‍♀️ Volunteer"
+description: Offer to help with a Monday event
+title: "[Volunteer] "
+labels: ["volunteer"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Your name and GitHub username (or how to reach you)
+    validations:
+      required: true
+  - type: checkboxes
+    id: roles
+    attributes:
+      label: How would you like to help?
+      options:
+        - label: Lead a demo
+        - label: Lead a team
+        - label: Help run a session
+        - label: Host a study group
+        - label: Help organise events
+        - label: Spread the word and invite friends
+        - label: Something else (tell us below)
+  - type: dropdown
+    id: event
+    attributes:
+      label: Which event suits you best?
+      options:
+        - Any
+        - Mon 12 Oct - Women in Tech kickoff
+        - Mon 19 Oct - Intro to cloud computing
+        - Mon 26 Oct - Cybersecurity basics
+        - Mon 2 Nov - Getting started with AI and ML
+        - Mon 9 Nov - Data science session
+        - Mon 16 Nov - Build a small web or mobile project
+        - Mon 23 Nov - Hackathon
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else we should know?
+      description: Experience, availability, or what would help you feel ready.

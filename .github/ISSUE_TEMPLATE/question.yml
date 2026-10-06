@@ -1,0 +1,16 @@
+name: "❓ Ask a question"
+description: Not sure about something? Ask here. No question is too basic.
+title: "[Question] "
+labels: ["question"]
+body:
+  - type: input
+    id: event
+    attributes:
+      label: Which event or topic is this about?
+      placeholder: "Mon 26 Oct, cybersecurity basics"
+  - type: textarea
+    id: question
+    attributes:
+      label: What is your question?
+    validations:
+      required: true
