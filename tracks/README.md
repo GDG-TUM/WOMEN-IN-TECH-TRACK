@@ -9,7 +9,7 @@ Each Monday links to a track that already exists in the club, so what you try on
 |--------|-------|------|--------|
 | 12 Oct | All tracks | This repo's [kickoff page](../events/2026-10-12-kickoff.md) | Open |
 | 19 Oct | ☁️ Cloud computing | [Cloud Track](https://github.com/GDG-TUM/Cloud-Track-GDG-on-Campus-TUM) · [site](https://gdg-tum.github.io/Cloud-Track-GDG-on-Campus-TUM/) | Open |
-| 26 Oct | 🔐 Cybersecurity | [Cybersecurity Track](https://github.com/GDG-TUM/CYBERSECURITY-TRACK-GDG-on-Campus-TUM) | Open (repo being set up) |
+| 26 Oct | 🔐 Cybersecurity | [Cybersecurity Track](https://gdg-tum.github.io/CYBERSECURITY-TRACK-GDG-on-Campus-TUM/) | Open (repo being set up) |
 | 2 Nov | 🤖 AI and ML | Track page coming soon | Coming soon |
 | 9 Nov | 📊 Data science | Track page coming soon | Coming soon |
 | 16 Nov | 🌐 Web, 📱 mobile, 🎨 design | Track pages coming soon | Coming soon |
